@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="swiper/swiper-bundle.min.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="wrapper">
+        <div class="header_container clearfix">
+          <a href="javascript:void(0);"
+            ><figure class="header_logo"><img src="images//main-logo.png" alt="travel more club logo" /></figure
+          ></a>
+          <div class="header_search">
+            <input type="text" name="search" placeholder="Search destinations or activties" />
+            <span class="search_icon"></span>
+          </div>
+          <div class="header_right">
+            <ul>
+              <li><a href="javascript:void(0);">Questions?</a></li>
+              <li><a href="javascript:void(0);">Sign up</a></li>
+              <li><a href="javascript:void(0);">Login</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <nav id="nav">
+      <div class="wrapper">
+        <div class="nav_container clearfix">
+          <div class="nav_left">
+            <a href="javascript:void(0);"><span class="marker_icon"></span>Explore destinations</a>
+          </div>
+          <div class="nav_right">
+            <ul>
+              <li><a href="javascript:void(0);">Tours & activities</a></li>
+              <li><a href="javascript:void(0);">Hotels</a></li>
+              <li><a href="javascript:void(0);">Flights</a></li>
+              <li><a href="javascript:void(0);">Special Offers</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="swiper" id="banner">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <figure><img src="images/banner-1.jpg" alt="" ondragstart="return false;" /></figure>
+        </div>
+        <div class="swiper-slide">
+          <figure><img src="images/banner-2.jpg" alt="" ondragstart="return false;" /></figure>
+        </div>
+        <div class="swiper-slide">
+          <figure><img src="images/banner-3.jpg" alt="" ondragstart="return false;" /></figure>
+        </div>
+      </div>
+      <div class="banner_wrapper">
+        <div class="swiper-button-next" id="banner-next"></div>
+        <div class="swiper-button-prev" id="banner-prev"></div>
+        <div class="banner_container">
+          <h2>Travel made easy</h2>
+          <p>Experience hassle-free travel with Travel Master Club: Book now for unforgettable adventures!</p>
+          <div class="banner_form">
+            <span class="search-icon"></span>
+            <input type="text" class="banner_search_input" name="" placeholder="Search Tours, Hotels, Flights" />
+            <button type="button" class="banner_search_button">Search</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="flyer_section">
+      <div class="wrapper">
+        <div class="flyer_container">
+          <h2>Secure your travel experience now !</h2>
+        </div>
+      </div>
+
+      <div class="flyer_wrapper">
+        <div class="flyer_container">
+          <div class="swiper" id="swiper-flyer">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <figure><img src="images/flyer/flyer-1.jpg" alt="" ondragstart="return false;" /></figure>
+              </div>
+              <div class="swiper-slide">
+                <figure><img src="images/flyer/flyer-2.jpg" alt="" ondragstart="return false;" /></figure>
+              </div>
+              <div class="swiper-slide">
+                <figure><img src="images/flyer/flyer-3.jpg" alt="" ondragstart="return false;" /></figure>
+              </div>
+              <div class="swiper-slide">
+                <figure><img src="images/flyer/flyer-4.jpg" alt="" ondragstart="return false;" /></figure>
+              </div>
+              <div class="swiper-slide">
+                <figure><img src="images/flyer/flyer-5.jpg" alt="" ondragstart="return false;" /></figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="flyer_navigation_wrapper">
+        <div class="flyer_navigation_container">
+          <div class="swiper-button-next" id="swiper-flyer-next"></div>
+          <div class="swiper-button-prev" id="swiper-flyer-prev"></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="popular_destinations_section">
+      <div class="wrapper">
+        <div class="pd_container">
+          <h2>Popular destinations</h2>
+
+          <div class="swiper" id="popular-destinations">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="pd_card">
+                  <figure>
+                    <img src="images/kawasan-falls.jpg" alt="" ondragstart="return false;" />
+                  </figure>
+                  <div class="description_container">
+                    <h3 class="location">Canyoneering • Alegría, Cebu</h3>
+                    <h3 class="title">Kawasan Falls</h3>
+                    <div class="review_container">
+                      <div class="star_rating">
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                      </div>
+                      <h4 class="info">(5) • 15k+ booked</h4>
+                    </div>
+                    <div class="tag_container">
+                      <ul>
+                        <li>
+                          <a href="javascriot:void(0);">Top Seller</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <h4 class="price">₱ 8,230.00</h4>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="pd_card">
+                  <figure>
+                    <img src="images/baywalkpark.jpg" alt="" ondragstart="return false;" />
+                  </figure>
+                  <div class="description_container">
+                    <h3 class="location">Piers & Boardwalks • Puerto Princesa City</h3>
+                    <h3 class="title">Baywalk Park</h3>
+                    <div class="review_container">
+                      <div class="star_rating">
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                      </div>
+                      <h4 class="info">(5) • 15k+ booked</h4>
+                    </div>
+                    <div class="tag_container">
+                      <ul>
+                        <li>
+                          <a href="javascriot:void(0);">Top Seller</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <h4 class="price">₱ 756.00</h4>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="pd_card">
+                  <figure>
+                    <img src="images/fort-san-pedro.jpg" alt="" ondragstart="return false;" />
+                  </figure>
+                  <div class="description_container">
+                    <h3 class="location">Museum • Cebu</h3>
+                    <h3 class="title">Fort San Pedro</h3>
+                    <div class="review_container">
+                      <div class="star_rating">
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                      </div>
+                      <h4 class="info">(5) • 15k+ booked</h4>
+                    </div>
+                    <div class="tag_container">
+                      <ul>
+                        <li>
+                          <a href="javascriot:void(0);">Top Seller</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <h4 class="price">₱ 2,756.00</h4>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="pd_card">
+                  <figure>
+                    <img src="images/cagsawa-ruins.jpg" alt="" ondragstart="return false;" />
+                  </figure>
+                  <div class="description_container">
+                    <h3 class="location">Historical landmark • Albay</h3>
+                    <h3 class="title">Cagsawa Ruins</h3>
+                    <div class="review_container">
+                      <div class="star_rating">
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                      </div>
+                      <h4 class="info">(5) • 15k+ booked</h4>
+                    </div>
+                    <div class="tag_container">
+                      <ul>
+                        <li>
+                          <a href="javascriot:void(0);">Top Seller</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <h4 class="price">₱ 8,875.00</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <button class="btn_see_more" type="button">See More</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="tours_by_interest">
+      <div class="wrapper">
+        <div class="tbi_container">
+          <h2>Tours by interest</h2>
+        </div>
+      </div>
+
+      <div class="swiper_tours_by_interest_wrapper">
+        <div class="wrapper">
+          <div class="swiper" id="swiper-tours-by-interest">
+            <div class="swiper-wrapper">
+              <section class="swiper-slide tbi_card">
+                <figure>
+                  <img src="images/tours-by-interest/adventure.jpg" alt="" />
+                  <figcaption>
+                    <h3>Adventure</h3>
+                  </figcaption>
+                </figure>
+              </section>
+
+              <section class="swiper-slide tbi_card">
+                <figure>
+                  <img src="images/tours-by-interest/cultural.jpg" alt="" />
+                  <figcaption>
+                    <h3>Cultural</h3>
+                  </figcaption>
+                </figure>
+              </section>
+
+              <section class="swiper-slide tbi_card">
+                <figure>
+                  <img src="images/tours-by-interest/marine.jpg" alt="" />
+                  <figcaption>
+                    <h3>Marine</h3>
+                  </figcaption>
+                </figure>
+              </section>
+
+              <section class="swiper-slide tbi_card">
+                <figure>
+                  <img src="images/tours-by-interest/wild-life.jpg" alt="" />
+                  <figcaption>
+                    <h3>Wildlife</h3>
+                  </figcaption>
+                </figure>
+              </section>
+
+              <section class="swiper-slide tbi_card">
+                <figure>
+                  <img src="images/tours-by-interest/hiking.jpg" alt="" />
+                  <figcaption>
+                    <h3>Hiking</h3>
+                  </figcaption>
+                </figure>
+              </section>
+
+              <section class="swiper-slide tbi_card">
+                <figure>
+                  <img src="images/tours-by-interest/spa-and-messages.jpg" alt="" />
+                  <figcaption>
+                    <h3>Spa & Massage</h3>
+                  </figcaption>
+                </figure>
+              </section>
+
+              <section class="swiper-slide tbi_card">
+                <figure>
+                  <img src="images/tours-by-interest/spa-and-messages.jpg" alt="" />
+                  <figcaption>
+                    <h3>Spa & Massage</h3>
+                  </figcaption>
+                </figure>
+              </section>
+            </div>
+          </div>
+        </div>
+        <div class="nav_tours_by_interest_wrapper">
+          <div class="swiper-button-next" id="swiper-tours-by-interest-next"></div>
+          <div class="swiper-button-prev" id="swiper-tours-by-interest-prev"></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="our_exclusive_tours">
+      <div class="wrapper">
+        <div class="oet_container">
+          <h2>Our exclusive tours</h2>
+
+          <div class="swiper" id="swiper-our-exclusive-tours">
+            <div class="swiper-wrapper">
+              <section class="swiper-slide oet_card">
+                <figure>
+                  <img src="images/our-exclusive-tours/japan.jpg" alt="" />
+                  <figcaption>
+                    <h3>Japan</h3>
+                  </figcaption>
+                </figure>
+              </section>
+
+              <section class="swiper-slide oet_card">
+                <figure>
+                  <img src="images/our-exclusive-tours/cebu.jpg" alt="" />
+                  <figcaption>
+                    <h3>Cebu</h3>
+                  </figcaption>
+                </figure>
+              </section>
+
+              <section class="swiper-slide oet_card">
+                <figure>
+                  <img src="images/our-exclusive-tours/new-zealand.jpg" alt="" />
+                  <figcaption>
+                    <h3>New Zealand</h3>
+                  </figcaption>
+                </figure>
+              </section>
+
+              <section class="swiper-slide oet_card">
+                <figure>
+                  <img src="images/our-exclusive-tours/bohol.jpg" alt="" />
+                  <figcaption>
+                    <h3>Bohol</h3>
+                  </figcaption>
+                </figure>
+              </section>
+            </div>
+            <div class="swiper-button-next" id="swiper-our-exclusive-tours-next"></div>
+            <div class="swiper-button-prev" id="swiper-our-exclusive-tours-prev"></div>
+          </div>
+
+          <button class="btn_see_more" type="button">See More</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="testimonials">
+      <div class="wrapper">
+        <div class="testimonials_container">
+          <h2>What our clients are saying</h2>
+          <div class="testimonials_frames">
+            <iframe
+              src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Ftongs.bilar%2Fposts%2Fpfbid02mae8Y1rHS8EFBtndoRogzQ247KZKtG8H9a4HTXrW3Kie1nNzawRNeWLDWsUmgRSpl"
+              style="border: none; overflow: hidden"
+              scrolling="no"
+              frameborder="0"
+              allowfullscreen="true"
+              allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+            ></iframe>
+
+            <iframe
+              src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fneilfrancis21%2Fposts%2Fpfbid022ysXQ6NDqiJVXWzNqCn6c6BgMjsc81F66MB4EMz7jSyaAfDvxL17phVj4UMTA4pHl"
+              style="border: none; overflow: hidden"
+              scrolling="no"
+              frameborder="0"
+              allowfullscreen="true"
+              allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+            ></iframe>
+
+            <iframe
+              src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmajocelyn.magbanua%2Fposts%2Fpfbid02fer8uFarmQn8ptGE4j4AFF7T3mqh1SSBFigaLgCVa766thP7pKuA9joBmbqUVMqSl"
+              style="border: none; overflow: hidden"
+              scrolling="no"
+              frameborder="0"
+              allowfullscreen="true"
+              allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+            ></iframe>
+
+            <iframe
+              src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fnorena.godornes%2Fposts%2Fpfbid02L8tJ8bkrDchMcTwYbKtvJVhyVKUYmK6cHRoxgksJGFJH3hmZXE4MXDtLkNKZLhTHl"
+              style="border: none; overflow: hidden"
+              scrolling="no"
+              frameborder="0"
+              allowfullscreen="true"
+              allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+            ></iframe>
+          </div>
+          <button class="btn_see_more" type="button">See More</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="faq">
+      <div class="wrapper">
+        <div class="faq_container">
+          <h2>Frequently Asked Questions (FAQs)</h2>
+
+          <div class="faq_details">
+            <details>
+              <summary>What is a tour?</summary>
+              <p>
+                A tour is a planned journey or travel experience that involves visiting various destinations,
+                attractions, or points of interest. It is usually led by a tour guide or conducted by a travel company
+                to provide travelers with a structured and organized way to explore a specific area or theme.
+              </p>
+            </details>
+            <details>
+              <summary>What types of tours are available?</summary>
+              <p>
+                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical
+                Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,
+              </p>
+            </details>
+            <details>
+              <summary>How do I book a tour?</summary>
+              <p>
+                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical
+                Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,
+              </p>
+            </details>
+            <details>
+              <summary>What does a tour typically include?</summary>
+              <p>
+                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical
+                Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,
+              </p>
+            </details>
+            <details>
+              <summary>Are tours suitable for solo travelers?</summary>
+              <p>
+                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical
+                Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,
+              </p>
+            </details>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper("#swiper-our-exclusive-tours", {
+        spaceBetween: 22,
+        slidesPerView: 4,
+        allowTouchMove: false,
+        navigation: {
+          nextEl: "#swiper-our-exclusive-tours-next",
+          prevEl: "#swiper-our-exclusive-tours-prev",
+        },
+      });
+
+      var swiper = new Swiper("#swiper-tours-by-interest", {
+        spaceBetween: 22,
+        slidesPerView: 4,
+        navigation: {
+          nextEl: "#swiper-tours-by-interest-next",
+          prevEl: "#swiper-tours-by-interest-prev",
+        },
+        breakpoints: {
+          0: {
+            slidesPerView: 1,
+          },
+          640: {
+            slidesPerView: 2,
+          },
+          768: {
+            slidesPerView: 4,
+          },
+          1024: {
+            allowTouchMove: false,
+            slidesPerView: 6,
+          },
+        },
+      });
+
+      var swiper = new Swiper("#banner", {
+        loop: true,
+        allowTouchMove: false,
+        navigation: {
+          nextEl: "#banner-next",
+          prevEl: "#banner-prev",
+        },
+      });
+
+      var swiper = new Swiper("#swiper-flyer", {
+        slidesPerView: 4,
+        spaceBetween: 18,
+        navigation: {
+          nextEl: "#swiper-flyer-next",
+          prevEl: "#swiper-flyer-prev",
+        },
+        breakpoints: {
+          0: {
+            slidesPerView: 1,
+          },
+          640: {
+            slidesPerView: 2,
+          },
+          768: {
+            allowTouchMove: false,
+            slidesPerView: 3,
+          },
+          1024: {
+            allowTouchMove: false,
+            slidesPerView: 4,
+          },
+        },
+      });
+
+      var swiper = new Swiper("#popular-destinations", {
+        slidesPerView: 4,
+        spaceBetween: 18,
+        breakpoints: {
+          0: {
+            slidesPerView: 1,
+          },
+          640: {
+            slidesPerView: 2,
+          },
+          768: {
+            slidesPerView: 3,
+          },
+          1024: {
+            allowTouchMove: false,
+            slidesPerView: 4,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
