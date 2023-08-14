@@ -210,14 +210,43 @@ a[href^="tel:"]{color: inherit!important; text-decoration: none;}
         .nav_right ul li {
             display: inline-block;
             vertical-align: middle;}
+
         .nav_right ul li:not(:last-child) {
             margin-right: 20px;
         }
+        .nav_right ul li:last-child {
+            padding-left: 25px;
+        }
+        .nav_right ul li {
+            position: relative;
+        }
+        .nav_right ul li:last-child::after {
+            content: "";
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+            position: absolute;
+            border-left: 1px solid var(--border-color);
+            height: 25px;
+        } 
         .nav_right ul li a {
-                color: var(--text-color-primary);
-                font-size: 14px;
-                font-weight: 500;
-                line-height: 60px;
+            color: var(--text-color-primary);
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 60px;
+            position: relative;
+        }
+        .nav_right ul li:last-child a {
+            padding-left: 30px;
+        }
+        .nav_right ul li:last-child a::after {
+            content: url("images/icons/gift-icon.png");
+            top: -5px;
+            left: 0;
+            transform: translateY(-50%);
+            position: absolute;
+            height: 22px;
+            width: 22px;
         }
         .nav_right ul li a:hover {
                 color: var(--text-color-primary-hover);
