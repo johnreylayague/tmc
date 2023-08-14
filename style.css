@@ -717,7 +717,6 @@ a[href^="tel:"]{color: inherit!important; text-decoration: none;}
 #faq {}
     .faq_container {
         padding-top: 70px;
-        padding-bottom: 70px;
     }
     .faq_container h2 {
         font-size: 28px;
@@ -767,4 +766,125 @@ a[href^="tel:"]{color: inherit!important; text-decoration: none;}
     .faq_container .faq_details details:last-child p {
         margin-bottom: 30px;
     }
+
+#footer {
+    margin-top: 70px;
+    border-top: 1px solid var(--border-color);
+}
+    .ftr_con {
+        padding: 70px 0;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+        .ftr_company {}
+        .ftr_company h2 {
+            font-size: 14px;
+            font-weight: 500;
+            color: var(--text-color-black-2);
+        }
+        .ftr_company ul {}
+        .ftr_company ul li {
+        }
+        .ftr_company ul li a {
+           color: var(--text-color-secondary);
+           font-size: 12px;
+           font-weight: 500;
+        }
+
+        .ftr_categories h2 {
+            font-size: 14px;
+            font-weight: 500;
+            color: var(--text-color-black-2);
+        }
+        .ftr_categories ul {}
+        .ftr_categories ul li {}
+        .ftr_categories ul li a {
+            color: var(--text-color-secondary);
+            font-size: 12px;
+            font-weight: 500;
+        }
+      
+        .ftr_payment_methods h2 {
+            font-size: 14px;
+            font-weight: 500;
+            color: var(--text-color-black-2);
+        }
+        .ftr_payment_methods ul {
+            display: flex;
+            flex-flow: row wrap;
+            align-items: flex-start;
+            margin-top: 10px;
+            gap: 10px;
+        }
+        .ftr_payment_methods ul li {
+            position: relative;
+        }
+        .ftr_payment_methods ul li .card-1{
+            content: url('images/icons/card-icon-1.png');
+        }
+        .ftr_payment_methods ul li .card-2{
+            content: url('images/icons/card-icon-2.png');
+        }
+        .ftr_payment_methods ul li .card-3{
+            content: url('images/icons/card-icon-3.png');
+        }
+        .ftr_payment_methods ul li .card-4{
+            content: url('images/icons/card-icon-4.png');
+        }
+   
+        .ftr_follow_us_on h2 {
+            font-size: 14px;
+            font-weight: 500;
+            color: var(--text-color-black-2);
+        }
+        .ftr_follow_us_on ul {}
+        .ftr_follow_us_on ul li:first-child{
+            margin-top: 10px;
+        }
+        .ftr_follow_us_on ul li:not(:first-child) {
+            margin-top: 15px;
+        }
+        .ftr_follow_us_on ul li a {
+            color: var(--text-color-secondary);
+            font-size: 12px;
+            font-weight: 500;
+            position: relative;
+            padding-left: 30px;
+        }
+        .ftr_follow_us_on ul li:nth-child(1) a::after {
+            content: url('images/icons/facebook-icon.png');
+        }
+        .ftr_follow_us_on ul li:nth-child(2) a::after {
+            content: url('images/icons/youtube-icon.png');
+        }
+        .ftr_follow_us_on ul li:nth-child(3) a::after {
+            content: url('images/icons/instagram-icon.png');
+
+        }
+        .ftr_follow_us_on ul li:nth-child(4) a::after {
+            content: url('images/icons/twitter-icon.png');
+        }
+        .ftr_follow_us_on ul li:nth-child(1) a::after,
+        .ftr_follow_us_on ul li:nth-child(2) a::after,
+        .ftr_follow_us_on ul li:nth-child(3) a::after,
+        .ftr_follow_us_on ul li:nth-child(4) a::after {
+            top: -4px;
+            left: 0;
+            position: absolute;
+        }
+
+    .footer_copy_right {
+        border-top: 1px solid var(--border-color);
+    }
+        .footer_copy_right_con {
+            padding: 26px 0;
+            text-align: center;
+        }
+            .footer_copy_right_con p { 
+                font-size: 12px;
+                font-weight: 400;
+                color: var(--text-color-secondary);
+            }
 
