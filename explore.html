@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Explore</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="swiper/swiper-bundle.min.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="wrapper">
+        <div class="header_container clearfix">
+          <a href="index.html"
+            ><figure class="header_logo"><img src="images//main-logo.png" alt="travel more club logo" /></figure
+          ></a>
+          <div class="header_search">
+            <input type="text" name="search" placeholder="Search destinations or nh_activties" />
+            <span class="search_icon"></span>
+          </div>
+          <div class="header_right">
+            <ul>
+              <li><a href="javascript:void(0);">Questions?</a></li>
+              <li><a href="javascript:void(0);">Sign up</a></li>
+              <li><a href="javascript:void(0);">Login</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <nav id="nav">
+      <div class="wrapper">
+        <div class="nav_container clearfix">
+          <div class="nav_left">
+            <a href="explore.html" class="selected"><span class="marker_icon"></span>Explore destinations</a>
+          </div>
+          <div class="nav_right">
+            <ul>
+              <li><a href="tours-and-activities.html">Tours & activities</a></li>
+              <li><a href="hotels.html">Hotels</a></li>
+              <li><a href="flights.html">Flights</a></li>
+              <li><a href="javascript:void(0);">Special Offers</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div id="nh_banner">
+      <div class="wrapper">
+        <div class="nh_banner_con">
+          <h2>Explore destinations</h2>
+        </div>
+      </div>
+    </div>
+
+    <div id="nh_activties">
+      <div class="nh_activties_wrapper">
+        <div class="nh_activties_con">
+          <div class="wrapper">
+            <div class="swapper_con">
+              <div class="swiper" id="nh_activties_swiper">
+                <div class="swiper-wrapper">
+                  <section class="swiper-slide">
+                    <figure>
+                      <img src="images/tours-by-interest/adventure.jpg" alt="" />
+                    </figure>
+                    <h3>Adventure</h3>
+                  </section>
+                  <section class="swiper-slide">
+                    <figure>
+                      <img src="images/tours-by-interest/cultural.jpg" alt="" />
+                    </figure>
+                    <h3>Cultural</h3>
+                  </section>
+                  <section class="swiper-slide">
+                    <figure>
+                      <img src="images/tours-by-interest/marine.jpg" alt="" />
+                    </figure>
+                    <h3>Marine</h3>
+                  </section>
+                  <section class="swiper-slide">
+                    <figure>
+                      <img src="images/tours-by-interest/wild-life.jpg" alt="" />
+                    </figure>
+                    <h3>Wildlife</h3>
+                  </section>
+                  <section class="swiper-slide">
+                    <figure>
+                      <img src="images/tours-by-interest/hiking.jpg" alt="" />
+                    </figure>
+                    <h3>Hiking</h3>
+                  </section>
+                  <section class="swiper-slide">
+                    <figure>
+                      <img src="images/tours-by-interest/spa-and-messages.jpg" alt="" />
+                    </figure>
+                    <h3>Spa & Massage</h3>
+                  </section>
+                  <section class="swiper-slide">
+                    <figure>
+                      <img src="images/tours-by-interest/attractions.jpg" alt="" />
+                    </figure>
+                    <h3>Toursit Attractions</h3>
+                  </section>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next" id="swiper-nh-activties-next"></div>
+          <div class="swiper-button-prev" id="swiper-nh-activties-prev"></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="nh_popular_destinations">
+      <div class="wrapper">
+        <div class="nh_pd_title_con">
+          <h3>Popular destinations</h3>
+        </div>
+      </div>
+      <div class="nh_pd_main_swapper">
+        <div class="nh_pd_main_con">
+          <div class="wrapper">
+            <div class="nh_pd_con">
+              <div class="swiper" id="nh-popular-destinations-swapper-1">
+                <div class="swiper-wrapper">
+                  <section class="swiper-slide">
+                    <figure class="location">
+                      <img src="images/our-exclusive-tours/cebu.jpg" alt="" />
+                      <figcaption>
+                        <h4>Cebu</h4>
+                      </figcaption>
+                    </figure>
+                  </section>
+                  <section class="swiper-slide">
+                    <figure class="item">
+                      <div class="img_con">
+                        <img src="images/kawasan-falls.jpg" alt="" />
+                      </div>
+                      <figcaption>
+                        <p>Canyoneering • Alegría, Cebu</p>
+                        <h5>Kawasan Falls</h5>
+                        <div class="rating_con">
+                          <ul class="star_list">
+                            <li>
+                              <span class="star"></span>
+                            </li>
+                            <li>
+                              <span class="star"></span>
+                            </li>
+                            <li>
+                              <span class="star"></span>
+                            </li>
+                          </ul>
+                          <p>(5) • 28k+ booked</p>
+                        </div>
+                        <ul class="tag_list">
+                          <li>
+                            <span>Top seller</span>
+                          </li>
+                        </ul>
+                        <span class="price">₱ 8,230.00</span>
+                      </figcaption>
+                    </figure>
+                  </section>
+                  <section class="swiper-slide">
+                    <figure class="item">
+                      <div class="img_con">
+                        <img src="images/popular-destinations/baywalk-park.jpg" alt="" />
+                      </div>
+                      <figcaption>
+                        <p>Piers & Boardwalks • Puerto Princesa City</p>
+                        <h5>Baywalk Park</h5>
+                        <div class="rating_con">
+                          <ul class="star_list">
+                            <li>
+                              <span class="star"></span>
+                            </li>
+                            <li>
+                              <span class="star"></span>
+                            </li>
+                            <li>
+                              <span class="star"></span>
+                            </li>
+                          </ul>
+                          <p>(5) • 19k+ booked</p>
+                        </div>
+                        <ul class="tag_list">
+                          <li>
+                            <span>Top seller</span>
+                          </li>
+                        </ul>
+                        <span class="price">₱ 756.00</span>
+                      </figcaption>
+                    </figure>
+                  </section>
+                  <section class="swiper-slide">
+                    <figure class="item">
+                      <div class="img_con">
+                        <img src="images/popular-destinations/cagsawa-ruins.jpg" alt="" />
+                      </div>
+                      <figcaption>
+                        <p>Historical landmark • Albay</p>
+                        <h5>Cagsawa Ruins</h5>
+                        <div class="rating_con">
+                          <ul class="star_list">
+                            <li>
+                              <span class="star"></span>
+                            </li>
+                            <li>
+                              <span class="star"></span>
+                            </li>
+                            <li>
+                              <span class="star"></span>
+                            </li>
+                          </ul>
+                          <p>(5) • 15k+ booked</p>
+                        </div>
+                        <ul class="tag_list">
+                          <li>
+                            <span>Top seller</span>
+                          </li>
+                        </ul>
+                        <span class="price">₱ 8,875.00</span>
+                      </figcaption>
+                    </figure>
+                  </section>
+                  <section class="swiper-slide">
+                    <figure class="item">
+                      <div class="img_con">
+                        <img src="images/popular-destinations/osmena-peak.jpg" alt="" />
+                      </div>
+                      <figcaption>
+                        <p>Hiking • Mantalongon, Dalaguete</p>
+                        <h5>Osmeña Peak</h5>
+                        <div class="rating_con">
+                          <ul class="star_list">
+                            <li>
+                              <span class="star"></span>
+                            </li>
+                            <li>
+                              <span class="star"></span>
+                            </li>
+                            <li>
+                              <span class="star"></span>
+                            </li>
+                          </ul>
+                          <p>(5) • 9k+ booked</p>
+                        </div>
+                        <ul class="tag_list">
+                          <li>
+                            <span>Top seller</span>
+                          </li>
+                        </ul>
+                        <span class="price">₱ 1,500.00</span>
+                      </figcaption>
+                    </figure>
+                  </section>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next" id="swiper-nh-popular-destinations-next-1"></div>
+          <div class="swiper-button-prev" id="swiper-nh-popular-destinations-prev-1"></div>
+        </div>
+      </div>
+
+      <div class="nh_pd_main_swapper">
+        <div class="nh_pd_main_con">
+          <div class="wrapper">
+            <div class="nh_pd_con">
+              <div class="swiper" id="nh-popular-destinations-swapper-2">
+                <div class="swiper-wrapper">
+                  <section class="swiper-slide">
+                    <figure class="location">
+                      <img src="images/popular-destinations/japan.png" alt="" />
+                      <figcaption>
+                        <h4>Japan</h4>
+                      </figcaption>
+                    </figure>
+                  </section>
+                  <section class="swiper-slide">
+                    <figure class="item">
+                      <div class="img_con">
+                        <img src="images/popular-destinations/tokyo-disney-resort-park-ticket.png" alt="" />
+                      </div>
+                      <figcaption>
+                        <h5>Tokyo Disney Resort Park Ticket</h5>
+                        <div class="rating_con">
+                          <ul class="star_list">
+                            <li>
+                              <span class="star"></span>
+                            </li>
+                            <li>
+                              <span class="star"></span>
+                            </li>
+                            <li>
+                              <span class="star"></span>
+                            </li>
+                          </ul>
+                          <p>(26,465) • 28k+ booked</p>
+                        </div>
+                        <ul class="tag_list">
+                          <li>
+                            <span>Top seller</span>
+                          </li>
+                        </ul>
+                        <span class="price">₱ 3,497.00</span>
+                      </figcaption>
+                    </figure>
+                  </section>
+                  <section class="swiper-slide">
+                    <figure class="item">
+                      <div class="img_con">
+                        <img src="images/popular-destinations/shibuya-sky-ticket.png" alt="" />
+                      </div>
+                      <figcaption>
+                        <h5>SHIBUYA SKY TICKET</h5>
+                        <div class="rating_con">
+                          <ul class="star_list">
+                            <li>
+                              <span class="star"></span>
+                            </li>
+                            <li>
+                              <span class="star"></span>
+                            </li>
+                            <li>
+                              <span class="star"></span>
+                            </li>
+                          </ul>
+                          <p>(10,635) • 500k+ booked</p>
+                        </div>
+                        <ul class="tag_list">
+                          <li>
+                            <span>Top seller</span>
+                          </li>
+                        </ul>
+                        <span class="price">₱ 865.00</span>
+                      </figcaption>
+                    </figure>
+                  </section>
+                  <section class="swiper-slide">
+                    <figure class="item">
+                      <div class="img_con">
+                        <img src="images//popular-destinations/sanrio-puroland-tokyo-ticket.png" alt="" />
+                      </div>
+                      <figcaption>
+                        <h5>Sanrio Puroland Tokyo Ticket</h5>
+                        <div class="rating_con">
+                          <ul class="star_list">
+                            <li>
+                              <span class="star"></span>
+                            </li>
+                            <li>
+                              <span class="star"></span>
+                            </li>
+                            <li>
+                              <span class="star"></span>
+                            </li>
+                          </ul>
+                          <p>(3k) • 15k+ booked</p>
+                        </div>
+                        <ul class="tag_list">
+                          <li>
+                            <span>Top seller</span>
+                          </li>
+                        </ul>
+                        <span class="price">₱ 1,100.00</span>
+                      </figcaption>
+                    </figure>
+                  </section>
+                  <section class="swiper-slide">
+                    <figure class="item">
+                      <div class="img_con">
+                        <img src="images/popular-destinations/fushimi-inari-taisha.jpg" alt="" />
+                      </div>
+                      <figcaption>
+                        <h5>Fushimi Inari Taisha</h5>
+                        <div class="rating_con">
+                          <ul class="star_list">
+                            <li>
+                              <span class="star"></span>
+                            </li>
+                            <li>
+                              <span class="star"></span>
+                            </li>
+                            <li>
+                              <span class="star"></span>
+                            </li>
+                          </ul>
+                          <p>(5) • 28k+ booked</p>
+                        </div>
+                        <ul class="tag_list">
+                          <li>
+                            <span>Top seller</span>
+                          </li>
+                        </ul>
+                        <span class="price">₱ 1,500.00</span>
+                      </figcaption>
+                    </figure>
+                  </section>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next" id="swiper-nh-popular-destinations-next-2"></div>
+          <div class="swiper-button-prev" id="swiper-nh-popular-destinations-prev-2"></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="faq">
+      <div class="wrapper">
+        <div class="faq_container">
+          <h2>Frequently Asked Questions (FAQs)</h2>
+
+          <div class="faq_details">
+            <details>
+              <summary>What is a tour?</summary>
+              <p>
+                A tour is a planned journey or travel experience that involves visiting various destinations,
+                attractions, or points of interest. It is usually led by a tour guide or conducted by a travel company
+                to provide travelers with a structured and organized way to explore a specific area or theme.
+              </p>
+            </details>
+            <details>
+              <summary>What types of tours are available?</summary>
+              <p>
+                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical
+                Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,
+              </p>
+            </details>
+            <details>
+              <summary>How do I book a tour?</summary>
+              <p>
+                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical
+                Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,
+              </p>
+            </details>
+            <details>
+              <summary>What does a tour typically include?</summary>
+              <p>
+                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical
+                Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,
+              </p>
+            </details>
+            <details>
+              <summary>Are tours suitable for solo travelers?</summary>
+              <p>
+                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical
+                Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,
+              </p>
+            </details>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer id="footer">
+      <div class="wrapper">
+        <div class="ftr_con">
+          <div class="ftr_company">
+            <h2>About Travel More Club</h2>
+            <ul>
+              <li><a href="javascript:void(0);">About us</a></li>
+              <li><a href="javascript:void(0);">Meet the team</a></li>
+              <li><a href="javascript:void(0);">Contact us</a></li>
+            </ul>
+          </div>
+          <div class="ftr_categories">
+            <h2>Categories</h2>
+            <ul>
+              <li><a href="javascript:void(0);">Tours & activites</a></li>
+              <li><a href="javascript:void(0);">Flights</a></li>
+              <li><a href="javascript:void(0);">Hotels</a></li>
+            </ul>
+          </div>
+          <div class="ftr_payment_methods">
+            <h2>Payment methods</h2>
+            <ul>
+              <li><span class="card-1"></span></li>
+              <li><span class="card-2"></span></li>
+              <li><span class="card-3"></span></li>
+              <li><span class="card-4"></span></li>
+            </ul>
+          </div>
+          <div class="ftr_follow_us_on">
+            <h2>Follow us on</h2>
+            <ul>
+              <li><a href="javascript:void(0);">Facebook</a></li>
+              <li><a href="javascript:void(0);">Youtube</a></li>
+              <li><a href="javascript:void(0);">Instagram</a></li>
+              <li><a href="javascript:void(0);">Twitter</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer_copy_right">
+        <div class="wrapper">
+          <div class="footer_copy_right_con">
+            <p>© 2023 Travel More Club. All Rights Reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Swiper JS -->
+    <script src="swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper("#nh-popular-destinations-swapper-1", {
+        spaceBetween: 21,
+        slidesPerView: 4,
+        navigation: {
+          nextEl: "#swiper-nh-popular-destinations-next-1",
+          prevEl: "#swiper-nh-popular-destinations-prev-1",
+        },
+        breakpoints: {
+          0: {
+            slidesPerView: 1,
+          },
+          640: {
+            slidesPerView: 2,
+          },
+          768: {
+            slidesPerView: 4,
+          },
+          1024: {
+            allowTouchMove: false,
+            slidesPerView: 4,
+          },
+        },
+      });
+      var swiper = new Swiper("#nh-popular-destinations-swapper-2", {
+        spaceBetween: 21,
+        slidesPerView: 4,
+        navigation: {
+          nextEl: "#swiper-nh-popular-destinations-next-2",
+          prevEl: "#swiper-nh-popular-destinations-prev-2",
+        },
+        breakpoints: {
+          0: {
+            slidesPerView: 1,
+          },
+          640: {
+            slidesPerView: 2,
+          },
+          768: {
+            slidesPerView: 4,
+          },
+          1024: {
+            allowTouchMove: false,
+            slidesPerView: 4,
+          },
+        },
+      });
+
+      var swiper = new Swiper("#nh_activties_swiper", {
+        spaceBetween: 21,
+        allowTouchMove: false,
+        navigation: {
+          nextEl: "#swiper-nh-activties-next",
+          prevEl: "#swiper-nh-activties-prev",
+        },
+        breakpoints: {
+          0: {
+            slidesPerView: 1,
+          },
+          640: {
+            slidesPerView: 2,
+          },
+          768: {
+            slidesPerView: 4,
+          },
+          1024: {
+            allowTouchMove: false,
+            slidesPerView: 6,
+          },
+        },
+      });
+
+      var swiper = new Swiper("#swiper-our-exclusive-tours", {
+        spaceBetween: 21,
+        slidesPerView: 4,
+        allowTouchMove: false,
+        navigation: {
+          nextEl: "#swiper-our-exclusive-tours-next",
+          prevEl: "#swiper-our-exclusive-tours-prev",
+        },
+      });
+
+      var swiper = new Swiper("#swiper-tours-by-interest", {
+        spaceBetween: 21,
+        slidesPerView: 4,
+        navigation: {
+          nextEl: "#swiper-tours-by-interest-next",
+          prevEl: "#swiper-tours-by-interest-prev",
+        },
+        breakpoints: {
+          0: {
+            slidesPerView: 1,
+          },
+          640: {
+            slidesPerView: 2,
+          },
+          768: {
+            slidesPerView: 4,
+          },
+          1024: {
+            allowTouchMove: false,
+            slidesPerView: 6,
+          },
+        },
+      });
+
+      var swiper = new Swiper("#banner", {
+        loop: true,
+        allowTouchMove: false,
+        navigation: {
+          nextEl: "#banner-next",
+          prevEl: "#banner-prev",
+        },
+      });
+
+      var swiper = new Swiper("#swiper-flyer", {
+        slidesPerView: 4,
+        spaceBetween: 18,
+        navigation: {
+          nextEl: "#swiper-flyer-next",
+          prevEl: "#swiper-flyer-prev",
+        },
+        breakpoints: {
+          0: {
+            slidesPerView: 1,
+          },
+          640: {
+            slidesPerView: 2,
+          },
+          768: {
+            allowTouchMove: false,
+            slidesPerView: 3,
+          },
+          1024: {
+            allowTouchMove: false,
+            slidesPerView: 4,
+          },
+        },
+      });
+
+      var swiper = new Swiper("#popular-destinations", {
+        slidesPerView: 4,
+        spaceBetween: 18,
+        breakpoints: {
+          0: {
+            slidesPerView: 1,
+          },
+          640: {
+            slidesPerView: 2,
+          },
+          768: {
+            slidesPerView: 3,
+          },
+          1024: {
+            allowTouchMove: false,
+            slidesPerView: 4,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
